@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #333;
+}
+
+header {
+    background-color: #00796b; /* Teal for header */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.help-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-section h1 {
+    color: #00796b; /* Matching the header color */
+}
+
+.help-section p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.help-topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.topic {
+    background-color: #b2ebf2; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.topic h2 {
+    color: #004d40; /* Darker teal for headings */
+}
+
+.topic p {
+    color: #00796b; /* Teal for text */
+}
+
+.topic:hover {
+    background-color: #80deea; /* Slightly darker shade on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #90cdc6; /* Teal for footer */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
